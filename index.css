@@ -1,0 +1,29 @@
+container{
+    padding: 30px;
+    display: grid;
+    margin: 30px;
+    background-color: blueviolet;
+    width: 40px;
+    justify-content: center;
+    
+
+}
+.body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: rgb(35, 119, 188);
+    font-weight: normal;
+    width: 90%;
+}
+.box1{
+    padding: 25px;
+    justify-content: center;
+    background-color: blueviolet;
+    margin: 20px;
+
+}
+.box2{
+    
+}
