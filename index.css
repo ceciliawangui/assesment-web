@@ -1,18 +1,23 @@
-body{
-    display: grid;
+body{ 
+    grid-area: 20px;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 40vh;
     background-color: rgb(35, 119, 188);
     font-weight: normal;
     width: 90%;
     align-items: center;
+    
 }
 .box1{
-    padding: 20px;
+    padding: 5px;
     justify-content: center;
     background-color: blueviolet;
     margin: 20px;
+    border-radius: 15px;
+    grid-area: 10px;
+    grid-column: 1/2;
+    
 
 }
 .box2{
@@ -20,6 +25,10 @@ body{
     justify-content: center;
     background-color: white;
     margin: 15px;
+    border-radius: 15px;
+    grid-area: 12;
+    grid-column:4;
+    
 
 }
 .box3{
@@ -27,6 +36,10 @@ body{
     justify-content: center;
     background-color: gray;
     margin: 15px;
+    border-radius: 15px;
+    display: grid;
+    grid-area: 8px;
+    grid-column: 2/3;
 
 }
 .box4{
@@ -35,11 +48,44 @@ body{
     justify-content: center;
     margin: 10px;
     background-color: white;
+    border-radius: 15px;
+    grid-area: 9px;
+    grid-column:3/6 ;
+    
 
 }
 .box5{
     padding: 10px;
     align-items: center;
-    background-color: black;
+    background-color: rgb(112, 98, 98);
+    border-radius: 15px;
+    grid-area: 10;
+    grid-column: 5/6;
+      
 
+}
+.boxes{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-area: 20px;
+    justify-content: center;
+    background-color: rgb(35, 119, 188);
+    font-weight: normal;
+    width: 90%;
+    align-items: center;
+    background-size: 20px;
+    align-content: center;
+
+}
+.profiles{
+    border-radius: 50%;
+
+
+}
+.images{
+    border-radius: 50%;
 }
